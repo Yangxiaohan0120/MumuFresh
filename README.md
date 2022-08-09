@@ -8,24 +8,27 @@
 [购物车模块]()
 [订单模块]()
 
-项目框架
+项目框架 \
+
+```
 -- src \
   -- controller \
-  -- service
-  -- model
-     -- dao
-     -- pojo
-     -- req
-     -- vo
-     -- query
-  -- filter
-  -- config
-  -- exception
-  -- common
-  -- utils
--- resources
-  -- mappers
-  -- static
+  -- service \
+  -- model \
+     -- dao \
+     -- pojo \
+     -- req \
+     -- vo \
+     -- query \
+  -- filter \
+  -- config \
+  -- exception \
+  -- common \
+  -- utils \
+-- resources \
+  -- mappers \
+  -- static \
+```
 
 主要数据链路
 Controller层负责传递 url请求
