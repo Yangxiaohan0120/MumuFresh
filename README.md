@@ -98,4 +98,24 @@ utils 常用工具，二维码生成器，MD5校验等
 
 ![](https://raw.githubusercontent.com/Yangxiaohan0120/SpringBootMall/master/src/main/resources/templates/8.png)
 
+##### 管理员登陆
+
+![](https://raw.githubusercontent.com/Yangxiaohan0120/SpringBootMall/master/src/main/resources/templates/9.png)
+
+##### 管理员商品管理
+
+![](https://raw.githubusercontent.com/Yangxiaohan0120/SpringBootMall/master/src/main/resources/templates/10.png)
+
+##### 管理员商品分类管理
+
+![](https://raw.githubusercontent.com/Yangxiaohan0120/SpringBootMall/master/src/main/resources/templates/11.png)
+
+##### 管理员订单管理
+
+![](https://raw.githubusercontent.com/Yangxiaohan0120/SpringBootMall/master/src/main/resources/templates/12.png)
+
+##### 管理员个人信息更改
+
+![](https://raw.githubusercontent.com/Yangxiaohan0120/SpringBootMall/master/src/main/resources/templates/13.png)
+
 
