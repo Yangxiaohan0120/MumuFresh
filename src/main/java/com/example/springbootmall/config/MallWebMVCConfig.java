@@ -8,6 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @author Chris Yang
  * created 2022-08-04 16:23
  **/
+
 public class MallWebMVCConfig implements WebMvcConfigurer {
 
     @Override

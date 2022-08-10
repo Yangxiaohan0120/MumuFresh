@@ -22,7 +22,6 @@ public class ProductListQuery {
     public List<Integer> getCategoryIds() {
         return categoryIds;
     }
-
     public void setCategoryIds(List<Integer> categoryIds) {
         this.categoryIds = categoryIds;
     }

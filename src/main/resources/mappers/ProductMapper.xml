@@ -174,9 +174,10 @@
         order by update_time desc
     </select>
 
-    <select id="selectList" parameterType="com.example.springbootmall.model.query.ProductListQuery" resultMap="BaseResultMap">
+    <select id="selectList" resultMap="BaseResultMap"
+            parameterType="com.example.springbootmall.model.query.ProductListQuery">
         select
-        <include refid="Base_Column_List"></include>
+        <include refid="Base_Column_List"/>
         from imooc_mall_product
         <where>
             <if test="query.keyword != null">

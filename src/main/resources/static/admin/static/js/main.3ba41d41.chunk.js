@@ -44,7 +44,7 @@
 
         function I(e) {
             if (-404 !== e.status) {
-                if (10007 === e.status) return h.a.error("\u8bf7\u91cd\u65b0\u767b\u5f55"), console.log(window.location + "/login"), void (window.location.href = "http://111.231.103.117:8081/admin/index.html#/login");
+                if (10007 === e.status) return h.a.error("\u8bf7\u91cd\u65b0\u767b\u5f55"), console.log(window.location + "/login"), void (window.location.href = "http://47.98.41.6:8083/admin/index.html#/login");
                 if (9999 !== e.status) return e.status, e;
                 h.a.error("\u8bf7\u91cd\u65b0\u767b\u5f55")
             } else h.a.error("\u4e3a\u4fdd\u8bc1\u6570\u636e\u6b63\u786e\uff0c\u672c\u7cfb\u7edf\u4ec5\u7528\u4e8e\u6f14\u793a\u540e\u53f0\u663e\u793a\u529f\u80fd\uff0c\u5df2\u5c06\u4fee\u6539\u76f8\u5173\u529f\u80fd\u5173\u95ed")
@@ -100,7 +100,7 @@
 
         function T(e) {
             if (-404 !== e.status) {
-                if (9999 !== e.status) return 10007 === e.status ? (h.a.error("\u8bf7\u91cd\u65b0\u767b\u5f55"), console.log(window.location), void (window.location.href = "http://111.231.103.117:8081/admin/index.html#/login")) : (e.status, e);
+                if (9999 !== e.status) return 10007 === e.status ? (h.a.error("\u8bf7\u91cd\u65b0\u767b\u5f55"), console.log(window.location), void (window.location.href = "http://47.98.41.6:8083/admin/index.html#/login")) : (e.status, e);
                 h.a.error("\u8bf7\u91cd\u65b0\u767b\u5f55")
             } else h.a.error("\u4e3a\u4fdd\u8bc1\u6570\u636e\u6b63\u786e\uff0c\u672c\u7cfb\u7edf\u4ec5\u7528\u4e8e\u6f14\u793a\u540e\u53f0\u663e\u793a\u529f\u80fd\uff0c\u5df2\u5c06\u4fee\u6539\u76f8\u5173\u529f\u80fd\u5173\u95ed")
         }
@@ -834,7 +834,7 @@
                             className: "avatar-uploader",
                             withCredentials: !0,
                             showUploadList: !1,
-                            action: "http://111.231.103.117:8081/admin/upload/file",
+                            action: "http://47.98.41.6:8083/admin/upload/file",
                             beforeUpload: X,
                             onChange: this.handleChange
                         }, i ? r.a.createElement("img", {src: i, alt: "avatar", style: {width: "100%"}}) : o)))))
@@ -933,7 +933,7 @@
                             t = r.a.createElement(g.a, null, r.a.createElement(g.a.Item, null, r.a.createElement("a", {
                                 onClick: function () {
                                     j.post(L.logout).then((function (e) {
-                                        1e4 === e.status ? window.location.href = "http://111.231.103.117:8081/admin/index.html#/login" : h.a.error(e.msg)
+                                        1e4 === e.status ? window.location.href = "http://47.98.41.6:8083/admin/index.html#/login" : h.a.error(e.msg)
                                     }))
                                 }
                             }, "\u9000\u51fa")));
@@ -955,7 +955,7 @@
                             }
                         }, "\u6155\u6155\u751f\u9c9c\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf")), r.a.createElement("div", null, r.a.createElement("a", {
                             target: "_blank",
-                            href: "http://111.231.103.117/#/index",
+                            href: "http://47.98.41.6/#/index",
                             style: {marginRight: "20px"}
                         }, "\u6155\u6155\u751f\u9c9c\u9996\u9875"), r.a.createElement(y.a, {
                             overlay: t,
